@@ -1,5 +1,5 @@
 # zmk-corne-rdv
-Real progpammers dvorak layout on a 40% split keyboard (corne). 
+Real programmers dvorak layout on a 40% split keyboard (corne). 
 - `Layer 0`: ✍️ Standard dvorak layout
 - `Layer 1`: 💯 Numbers
 - `Layer 2`: 🔣 Symbols
@@ -43,8 +43,8 @@ Real progpammers dvorak layout on a 40% split keyboard (corne).
 # Inspiration and credits
 [Dvorak layout](https://en.wikipedia.org/wiki/Dvorak_keyboard_layout).
 
-This config is a modified implementation of [progpammers dvorak](https://www.kaufmann.no/roland/dvorak/). I think this is closest to [real programmers dvorak](https://github.com/ThePrimeagen/keyboards/blob/master/README.md).
-Deviation from progpammers dvorat is that I do not remap `numbers`, but do optimize brackets and some symbols.
+This config is a modified implementation of [programmers dvorak](https://www.kaufmann.no/roland/dvorak/). This layout is close to [real programmers dvorak](https://github.com/ThePrimeagen/keyboards/blob/master/README.md).
+Deviation from programmers dvorak is that I do not remap `numbers`, but do optimize brackets and some symbols.
 
 Also see [my qmk config](https://github.com/timonviola/qmk_firmware) I use for my wired corne.
 
