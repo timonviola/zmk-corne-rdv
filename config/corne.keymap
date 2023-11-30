@@ -45,16 +45,16 @@
                 lower_layer {
 // +------------------------------------------------------------------------------------+
 // |   TAB |  1  |  2  |  3  |  4  |  5  |         |  6  |  7  |  8  |  9  |  0  | BSPC |
-// | LSHFT |     |     |     |     |     |         | LEFT| DOWN|  UP | RHGT|     |      |
-// |  CTLR |     |     |     |     |     |         |     |     |     |     |     |      |
+// | LSHFT | F1  | F2  | F3  | F4  | F5  |         | LEFT| DOWN|  UP | RHGT|     |      |
+// |  CTLR | F6  | F7  | F8  | F9  |     |         |     | F10 | F11 | F12 |     |      |
 //                         | GUI |     | SPC |  | ENT |MEDIA| ALT |
 // +------------------------------------------------------------------------------------+
                         label = "lower";
                         bindings = <
-   &kp TAB    &kp N1     &kp N2     &kp N3       &kp N4       &kp N5    &kp N6   &kp N7    &kp N8 &kp N9    &kp N0 &kp BSPC
-   &kp LSHFT  &trans     &trans     &trans       &trans       &trans    &kp LEFT &kp DOWN  &kp UP &kp RIGHT &trans &trans
-   &kp LCTRL  &trans     &trans     &trans       &trans       &trans    &trans   &trans    &trans &trans    &trans &trans
-                            &kp LGUI  &trans  &kp SPACE       &kp RET   &mo MEDIA &kp RALT
+   &kp TAB    &kp N1     &kp N2     &kp N3       &kp N4 &kp N5  &kp N6      &kp N7     &kp N8   &kp N9      &kp N0 &kp BSPC
+   &kp LSHFT  &kp F1     &kp F2     &kp F3       &kp F4 &kp F5  &kp LEFT    &kp DOWN   &kp UP   &kp RIGHT   &trans &trans
+   &kp LCTRL  &kp F6     &kp F7     &kp F8       &kp F9 &trans  &trans      &kp F10    &kp F11  &kp F12     &trans &trans
+                            &kp LGUI  &trans  &kp SPACE &kp RET &mo MEDIA   &kp RALT
                         >;
                 };
                 raise_layer {
