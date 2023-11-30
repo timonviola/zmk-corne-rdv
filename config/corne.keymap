@@ -60,15 +60,15 @@
                 raise_layer {
 // +------------------------------------------------------------------------------------+
 // |  TAB  |  !  |  @  |  #  |  $  |  %  |         |  ^  |  &  |  *  |  (  |  )  | BSPC |
-// | LSHFT |  ~  |  -  |  [  |  (  |  /  |         |  \  |  )  |  ]  |  +  |  =  | ` ~  |
-// |  CTLR |GLOBE|  _  |  ?  |  {  |  :  |         |  ;  |  }  |  "  |  |  |     |  ESC |
+// | LSHFT |  ~  |  -  |  [  |  (  |  :  |         |  \  |  )  |  ]  |  +  |  =  | ` ~  |
+// |  CTLR |GLOBE|  _  |  ?  |  {  |  "  |         |  ;  |  }  |     |  |  |  /  |  ESC |
 //                        | GUI |MEDIA| SPC |   | ENT |     | ALT |
 // +------------------------------------------------------------------------------------+
                         label = "raise";
                         bindings = <
    &kp TAB   &kp EXCL  &kp AT    &kp HASH  &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp STAR &kp LPAR &kp RPAR  &kp BSPC
-   &kp LSHFT &kp TILDE &kp MINUS &kp LBKT  &kp LPAR &kp FSLH    &kp BSLH  &kp RPAR  &kp RBKT &kp PLUS &kp EQUAL &kp GRAVE
-   &kp LCTRL &kp GLOBE &kp UNDER &kp QMARK &kp LBRC &kp COLON   &kp SEMI  &kp RBRC  &kp DQT  &kp PIPE &trans    &kp ESC
+   &kp LSHFT &kp TILDE &kp MINUS &kp LBKT  &kp LPAR &kp COLON   &kp BSLH  &kp RPAR  &kp RBKT &kp PLUS &kp EQUAL &kp GRAVE
+   &kp LCTRL &kp GLOBE &kp UNDER &kp QMARK &kp LBRC &kp DQT     &kp SEMI  &kp RBRC  &trans   &kp PIPE &kp FSLH  &kp ESC
                              &kp LGUI &mo MEDIA &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
