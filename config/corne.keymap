@@ -37,6 +37,7 @@
             tapping-term-ms = <200>;
             bindings = <&sk LSHFT>, <&kp CAPSLOCK>;
         };
+    };
     keymap {
         compatible = "zmk,keymap";
 
